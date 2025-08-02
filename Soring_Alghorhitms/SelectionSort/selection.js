@@ -19,4 +19,3 @@ function selectionSort(arr) {
 let array = [78,13,345,23,90,1,91,2,3,21,89];
 let result = selectionSort(array);
 console.log(result);
-

@@ -1,10 +1,10 @@
 // Bubble Sort
 
 function BubbleSort(array) {
-    for(let i = 0; i < array.length;i++) {
-        for(let j = 0; j < (array.length - i - 1); j++) {
+    for (let i = 0; i < array.length; i++) {
+        for (let j = 0; j < (array.length - i - 1); j++) {
             // In there We check if the value is biger than next value we change theyre places
-            if(array[j] > array[j + 1]) {
+            if (array[j] > array[j + 1]) {
                 let temp = array[j];
                 array[j] = array[j + 1];
                 array[j + 1] = temp;

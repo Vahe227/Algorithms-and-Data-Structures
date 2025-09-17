@@ -17,7 +17,6 @@ function LPS(pattern) {
         };
     };
     return lps;
-}
+};
 
 console.log(LPS('ababac'));
-

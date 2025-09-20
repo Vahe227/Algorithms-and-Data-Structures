@@ -21,9 +21,3 @@ array.sort((a, b) => a - b);
 
 let result = iterativeBinarySearch(array,2);
 console.log(result);
-
-function sayHi() {
-    phrase = "Hello";
-    let phrase;
-    alert(phrase); // ReferenceError
-}
